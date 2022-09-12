@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - prints the string in the printf function
-*
-* Discription - using the main function
-* This program  prints the size of various types 
-* Return: 0
-*/
+ * main - prints the string in the printf function
+ *
+ * Discription - using the main function
+ * This program  prints the size of various types 
+ * Return: 0
+ */
 int main(void)
 {
 	char c;
