@@ -2,6 +2,7 @@
 
 /**
 * main - prints the string in the printf function
+*
 * Discription - using the main function
 * This program  prints the size of various types on the computer it is compiled and run on.
 * Return: 0
