@@ -7,7 +7,7 @@
  *
  * description using the main function
  * The program prints the " the programming is positive, zero, negative
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
