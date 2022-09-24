@@ -6,7 +6,7 @@
  */
 void _puts(char *str)
 {
-char []index;;
+char index;
 
 while (str[index] != '\0')
 {
