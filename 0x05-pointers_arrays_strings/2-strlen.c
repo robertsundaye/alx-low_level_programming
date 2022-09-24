@@ -2,8 +2,7 @@
 #include <string.h>
 
 /**
- * _strlen - returns the lenght of a string
- * 
+ * _strlen - returns the lenght of a string 
  * @s: inpute string
  * Return: lenght of the string
  */
