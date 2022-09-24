@@ -14,7 +14,7 @@ int index;
 
 while(s[index] != '\0')
 {
-	index++
+	index++;
 }
 return (index);
 }
