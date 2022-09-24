@@ -4,7 +4,7 @@
  * main - prints the string in the printf function
  *
  * Discription - using the main function
- * This program  prints the size of various types 
+ * This program  prints the size of various types
  * Return: 0
  */
 int main(void)
