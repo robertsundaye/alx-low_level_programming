@@ -5,14 +5,13 @@
  * main - check the code
  *
  * Return: Always 0.
- */
+ */:wq
 void print_alphabet(void)
 {
 	char rb;
 	for(rb = 'a'; rb <= 'z'; rb++)
 	{
-		putchar('rb');
+		putchar(rb);
 	}
 	putchar('\n');
-	return (void);
 }
