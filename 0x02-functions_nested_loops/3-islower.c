@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - search for lower case letter
+ * @c - takes tge import
  */
 
 int _islower(int c)
