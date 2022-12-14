@@ -2,21 +2,22 @@
 
 /**
  * print_alphabet - chevks the code.
+ * description - prints a to z in ten line.
  *
  * Return - nothing to return
  */
 void print_alphabet_x10(void)
 {
-	int rs = 1;
-	char t = 'a';
-	while (rs <= 10)
+	int t;
+	char r;
+	for (t = 1; t <= 10;t++)
+
 	{
-		while (t <= 'z')
+		for (r = 'a'; r <= 'z'; r++)
+
 		{
-			_putchar(t);
-			t++;
+			_putchar(r);
 		}
 		_putchar('\n');
-		rs++;
 	}
 }
