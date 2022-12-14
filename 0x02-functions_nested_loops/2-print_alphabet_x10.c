@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - chevks the code.
- *
- * Description: using the print_alphabet function.
+ * print_alphabet - checks the code and print a-z
  * Return - nothing to return
  */
 void print_alphabet_x10(void)
