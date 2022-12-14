@@ -2,6 +2,8 @@
 /**
  * _islower - search for lower case letter
  * @c:  takes tge import
+ *
+ * Description: return c zero if statement is fal
  * Return - returns one if the statement is true
  */
 
