@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -islower - search for lower case letter
+ * _islower - search for lower case letter
  */
 
 int _islower(int c)
