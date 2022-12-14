@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,7 @@ void print_alphabet(void)
 	int rb;
 	for(rb = 'a'; rb <= 'z'; rb++)
 	{
-		putchar(rb');
+		putchar('rb');
 	}
 	putchar('\n');
 	return (0);
