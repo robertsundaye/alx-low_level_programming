@@ -5,7 +5,7 @@
  * main - check the code
  *
  * Return: Always 0.
- */:wq
+ */
 void print_alphabet(void)
 {
 	char rb;
