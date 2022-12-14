@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - checks the code and print a-z
+ * print_alphabet - checks the code and print a z
+ *
+ * Description: uses tge print_alphabet function
  * Return - nothing to return
  */
 void print_alphabet_x10(void)
