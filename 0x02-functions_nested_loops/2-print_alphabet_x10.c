@@ -3,7 +3,7 @@
 /**
  * print_alphabet - chevks the code.
  *
- * Description - prints a to z in ten line.
+ * Description: prints a to z in ten line.
  *
  * Return - nothing to return
  */
