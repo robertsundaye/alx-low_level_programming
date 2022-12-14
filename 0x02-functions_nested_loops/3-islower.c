@@ -2,9 +2,7 @@
 /**
  * _islower - search for lower case letter
  * @c:  takes tge import
- *
- * Description: return c zero if statement is fal
- * Return - returns one if the statement is true
+ * Return - returns 1 if the statement is true or o if not
  */
 
 int _islower(int c)
