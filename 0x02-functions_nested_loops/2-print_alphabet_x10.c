@@ -3,8 +3,7 @@
 /**
  * print_alphabet - chevks the code.
  *
- * Description: prints a to z in ten line.
- *
+ * Description: using the print_alphabet function.
  * Return - nothing to return
  */
 void print_alphabet_x10(void)
