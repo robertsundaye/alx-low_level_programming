@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - ptints 1 to 14 ten ten times
+ * more_numbers - ptints 0 to 14 ten ten times
  * Return: void
  */
 void more_numbers(void)
@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (r = '1'; r <= '10'; r++)
 	{
-		for (b = '1'; b <= '14'; b++)
+		for (b = '0'; b <= '14'; b++)
 		{
 			_putchar(b);
 		}
