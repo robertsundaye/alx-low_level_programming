@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_spuare - prints a square on tge terminal
+ * print_square - prints a square on tge terminal
  * @size: size of the spuare
  *
  * Return: no return
