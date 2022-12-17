@@ -5,7 +5,7 @@
  * Return: always 0.
  */
 
-int main()
+int main(void)
 {
 	int r;
 
@@ -31,8 +31,5 @@ int main()
 		}
 	}
 	printf("\n");
-
 	return(0);
 }
-
-
