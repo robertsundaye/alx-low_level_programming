@@ -3,6 +3,7 @@
 /**
  * print_spuare - prints a square on tge terminal
  * @size: size of the spuare
+ *
  * Return: no return
  */
 void print_square(int size)
