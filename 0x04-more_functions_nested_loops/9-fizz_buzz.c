@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints Fizz or Buzz for each multiples of 3 and 5
+ * main - prints Fizz or Buzz for each multiples of 3 and 5.
  * Return: always 0.
  */
-int main(void)
-{
-	int r = 1;
 
+int main()
+{
+	int r;
+
+	r = 1;
 	printf("%d", r);
-	
 	for (r = 2; r <= 100; r++)
 	{
 		if (r % 3 == 0)
@@ -26,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			ptintf(" %d", r);
+			printf(" %d", r);
 		}
 	}
 	printf("\n");
