@@ -2,15 +2,18 @@
 
 /**
  * reverse_array - reverse content of an array
- * @@: array
+ * @a: array
  * @n: number of element
+ * @r: input1
+ * @c: input2
  * Return: rev
  */
 void reverse_array(int *a, int n)
 {
 	int r;
 	int c;
-	
+
+
 	for (r = 0; r < n; r++)
 	{
 		n--;
