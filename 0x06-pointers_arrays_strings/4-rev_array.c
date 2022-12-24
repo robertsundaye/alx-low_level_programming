@@ -2,9 +2,9 @@
 
 /**
  * reverse_array - reverse content of an array
- * @@: input 1
- * @n: input 2
- * Return: void
+ * @@: array
+ * @n: number of element
+ * Return: rev
  */
 void reverse_array(int *a, int n)
 {
