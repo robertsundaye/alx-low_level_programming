@@ -2,20 +2,18 @@
 
 /**
  * _memset - fills a block of emeory with values
- * @s: adress tobe fill
+ * @s: adress to be fill
  * @b: values
  * @n: amount of bytes to be copied
  *
- * Return: s
+ * Return: char
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int r = 0;
-
-	for (; n > 0; r++)
+	int r;
+	for (r = 0: r < n; r++)
 	{
-		s[r] = b;
-		n--;
+		*(s + r) = b;
 	}
 	return (s);
 }
