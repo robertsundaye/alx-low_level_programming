@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * _strchr - search for character in a string
@@ -9,7 +11,7 @@
  */
 char *_strchr(char *s, char c);
 {
-	char *r = '\0';
+	char *r = NULL;
 
 	if (s != '\0')
 	{
