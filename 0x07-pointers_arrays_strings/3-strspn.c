@@ -2,7 +2,7 @@
 
 /**
  * _strspn - gets the length of the prefix substring
- * @: adress of string to be scanned
+ * @s: adress of string to be scanned
  * @accept: adress of refference string
  *
  * Return: int
@@ -10,6 +10,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int r, i, l;
+
 	l = 0;
 
 	for (r = 0; *(s + r) != '\0'; r++)
