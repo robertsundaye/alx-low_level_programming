@@ -7,9 +7,9 @@
  * @s: adress of the string
  * @c: character to be searched for
  *
- * Return: c
+ * Return: char
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	char *r = NULL;
 
