@@ -3,7 +3,7 @@
 /**
  * _memcpy - copies string from one memory to another
  * @dest: adress to copy string to
- * @scr: adress to copy stringfrom
+ * @src: adress to copy stringfrom
  * @n: about of bytes to be copied
  *
  * Return: dest
