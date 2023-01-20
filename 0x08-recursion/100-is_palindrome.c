@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
- * _length - checks the lenght of the string
+/**
+ * _length - check the length of the string
  * @s: string
  *
- * Return: lenght of the string
+ * Rwturn: length
  */
 int _length(char *s)
 {
