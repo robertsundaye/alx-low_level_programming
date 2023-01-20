@@ -54,6 +54,6 @@ int Robert(int i, int lg, char *s)
  */
 int is_palindrome(char *s)
 {
-	return (Robert(0, _lenght(s) - 1, s));
+	return (Robert(0, _length(s) - 1, s));
 }
 
