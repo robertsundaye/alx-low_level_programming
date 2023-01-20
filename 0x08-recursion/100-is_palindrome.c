@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _lenght - checks the lenght os the string
+ * _length - checks the lenght os the string
  * @s: string
  *
  * Return: lenght of the string
@@ -14,7 +14,7 @@ int _length(char *s)
 	}
 	else
 	{
-		return (1 + _length(s + 1));
+		return(1 + _length(s + 1));
 	}
 }
 
