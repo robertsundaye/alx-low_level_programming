@@ -14,7 +14,7 @@ int _length(char *s)
 	}
 	else
 	{
-		(1 + _length(s + 1));
+		return (1 + _length(s + 1));
 	}
 }
 
