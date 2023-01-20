@@ -4,7 +4,7 @@
  * _length - check the length of the string
  * @s: string
  *
- * Rwturn: length
+ * Return: length
  */
 int _length(char *s)
 {
