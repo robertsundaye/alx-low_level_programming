@@ -26,7 +26,7 @@ int Robert(int num, int psqrt)
 	}
 }
 /**
- * _sprt_recursion - returns the squarroot of a num
+ * _sqrt_recursion - returns the squarroot of a num
  * @n: input num
  *
  * Return: sqrt of n.
