@@ -9,24 +9,25 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *join;
+	int r, s;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
-	for (int r = 0; s1[r] != '\0'; r++)
-	for (int s = 0; s2[s] != '\0'; s++)
+	for (r = 0; s1[r] != '\0'; r++)
+	for (s = 0; s2[s] != '\0'; s++)
 	join = (char*)malloc(sizeof(char) * (r + s + 1));
 
 	if (join == NULL)
 		return (NULL);
-	for (int r = 0; s1[r] != '\0'; r++)
+	for (r = 0; s1[r] != '\0'; r++)
 	{
 		join[r] = s1[r];
 	}
 
-	for (int s = 0; s2[s] != '\0'; s++)
+	for (s = 0; s2[s] != '\0'; s++)
 	{
 		join[r] = s2[s];
 		r++;
