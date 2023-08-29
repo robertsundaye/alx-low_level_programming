@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * print_chessboard - print out the chessboard
- * @(*a)[8]: 2D array
  *
  *Return: always Void
  */
