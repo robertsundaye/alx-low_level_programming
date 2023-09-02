@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _atoi(char* s);
+int _atoi(const char *str);
 
 /**
  * main - multiplies two numbers
@@ -31,12 +31,12 @@ int main(int argc, char *argv[])
 
 /**
  * _atoi - converts a string to an integer
- * @s: string to be converted
+ * @str: string to be converted
  *
  * Return: the int converted from the string
  */
 
-int atoi(const char *str)
+int _atoi(const char *str)
 {
 	int res = 0; // Initialize result 
 
