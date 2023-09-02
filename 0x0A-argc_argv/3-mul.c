@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
+int _atoi(char* s);
+
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
@@ -25,4 +27,15 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 
 	return (0);
+}
+
+int _atoi(char* s)
+{
+	int integer = 0;
+	while (*s)
+	{
+		integer = integer * 10 + (*s - '0');
+		s++;
+	}
+	return (integer);
 }
