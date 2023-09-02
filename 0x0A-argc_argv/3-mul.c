@@ -29,13 +29,22 @@ int main(int argc, char *argv[])
 	return (0);
 }
 
-int _atoi(char* s)
+/**
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
+ * Return: the int converted from the string
+ */
+
+int atoi(const char *str)
 {
-	int integer = 0;
-	while (*s)
-	{
-		integer = integer * 10 + (*s - '0');
-		s++;
-	}
-	return (integer);
+	int res = 0; // Initialize result 
+
+	// Iterate through all characters of input string and 
+	// update result 
+	for (int i = 0; str[i] != '\0'; ++i) 
+		res = res * 10 + str[i] - '0'; 
+
+	// return result. 
+	return (res); 
 }
